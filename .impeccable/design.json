@@ -1,0 +1,524 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-18T09:12:25.632Z",
+  "title": "Design System: QRHIRC",
+  "extensions": {
+    "colorMeta": {
+      "ink": {
+        "role": "primary",
+        "displayName": "Ink",
+        "tonalRamp": [
+          "oklch(15% 0.0260 191.67)",
+          "oklch(26% 0.0260 191.67)",
+          "oklch(38% 0.0260 191.67)",
+          "oklch(49% 0.0260 191.67)",
+          "oklch(61% 0.0260 191.67)",
+          "oklch(72% 0.0260 191.67)",
+          "oklch(84% 0.0260 191.67)",
+          "oklch(95% 0.0260 191.67)"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Paper",
+        "tonalRamp": [
+          "oklch(15% 0.0041 121.56)",
+          "oklch(26% 0.0041 121.56)",
+          "oklch(38% 0.0041 121.56)",
+          "oklch(49% 0.0041 121.56)",
+          "oklch(61% 0.0041 121.56)",
+          "oklch(72% 0.0041 121.56)",
+          "oklch(84% 0.0041 121.56)",
+          "oklch(95% 0.0041 121.56)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted",
+        "tonalRamp": [
+          "oklch(15% 0.0239 173.04)",
+          "oklch(26% 0.0239 173.04)",
+          "oklch(38% 0.0239 173.04)",
+          "oklch(49% 0.0239 173.04)",
+          "oklch(61% 0.0239 173.04)",
+          "oklch(72% 0.0239 173.04)",
+          "oklch(84% 0.0239 173.04)",
+          "oklch(95% 0.0239 173.04)"
+        ]
+      },
+      "accent": {
+        "role": "primary",
+        "displayName": "Accent",
+        "tonalRamp": [
+          "oklch(15% 0.1458 38.98)",
+          "oklch(26% 0.1458 38.98)",
+          "oklch(38% 0.1458 38.98)",
+          "oklch(49% 0.1458 38.98)",
+          "oklch(61% 0.1458 38.98)",
+          "oklch(72% 0.1458 38.98)",
+          "oklch(84% 0.1458 38.98)",
+          "oklch(95% 0.1458 38.98)"
+        ]
+      },
+      "soft": {
+        "role": "neutral",
+        "displayName": "Soft",
+        "tonalRamp": [
+          "oklch(15% 0.0119 133.38)",
+          "oklch(26% 0.0119 133.38)",
+          "oklch(38% 0.0119 133.38)",
+          "oklch(49% 0.0119 133.38)",
+          "oklch(61% 0.0119 133.38)",
+          "oklch(72% 0.0119 133.38)",
+          "oklch(84% 0.0119 133.38)",
+          "oklch(95% 0.0119 133.38)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Line",
+        "tonalRamp": [
+          "oklch(15% 0.0128 149.23)",
+          "oklch(26% 0.0128 149.23)",
+          "oklch(38% 0.0128 149.23)",
+          "oklch(49% 0.0128 149.23)",
+          "oklch(61% 0.0128 149.23)",
+          "oklch(72% 0.0128 149.23)",
+          "oklch(84% 0.0128 149.23)",
+          "oklch(95% 0.0128 149.23)"
+        ]
+      },
+      "white": {
+        "role": "neutral",
+        "displayName": "White",
+        "tonalRamp": [
+          "oklch(15% 0.0000 89.88)",
+          "oklch(26% 0.0000 89.88)",
+          "oklch(38% 0.0000 89.88)",
+          "oklch(49% 0.0000 89.88)",
+          "oklch(61% 0.0000 89.88)",
+          "oklch(72% 0.0000 89.88)",
+          "oklch(84% 0.0000 89.88)",
+          "oklch(95% 0.0000 89.88)"
+        ]
+      },
+      "leaf": {
+        "role": "secondary",
+        "displayName": "Leaf",
+        "tonalRamp": [
+          "oklch(15% 0.0454 153.54)",
+          "oklch(26% 0.0454 153.54)",
+          "oklch(38% 0.0454 153.54)",
+          "oklch(49% 0.0454 153.54)",
+          "oklch(61% 0.0454 153.54)",
+          "oklch(72% 0.0454 153.54)",
+          "oklch(84% 0.0454 153.54)",
+          "oklch(95% 0.0454 153.54)"
+        ]
+      },
+      "connect": {
+        "role": "secondary",
+        "displayName": "Connect",
+        "tonalRamp": [
+          "oklch(15% 0.0377 165.67)",
+          "oklch(26% 0.0377 165.67)",
+          "oklch(38% 0.0377 165.67)",
+          "oklch(49% 0.0377 165.67)",
+          "oklch(61% 0.0377 165.67)",
+          "oklch(72% 0.0377 165.67)",
+          "oklch(84% 0.0377 165.67)",
+          "oklch(95% 0.0377 165.67)"
+        ]
+      },
+      "button-light": {
+        "role": "neutral",
+        "displayName": "Button Light",
+        "tonalRamp": [
+          "oklch(15% 0.0191 119.76)",
+          "oklch(26% 0.0191 119.76)",
+          "oklch(38% 0.0191 119.76)",
+          "oklch(49% 0.0191 119.76)",
+          "oklch(61% 0.0191 119.76)",
+          "oklch(72% 0.0191 119.76)",
+          "oklch(84% 0.0191 119.76)",
+          "oklch(95% 0.0191 119.76)"
+        ]
+      },
+      "button-light-ink": {
+        "role": "primary",
+        "displayName": "Button Light Ink",
+        "tonalRamp": [
+          "oklch(15% 0.0369 164.73)",
+          "oklch(26% 0.0369 164.73)",
+          "oklch(38% 0.0369 164.73)",
+          "oklch(49% 0.0369 164.73)",
+          "oklch(61% 0.0369 164.73)",
+          "oklch(72% 0.0369 164.73)",
+          "oklch(84% 0.0369 164.73)",
+          "oklch(95% 0.0369 164.73)"
+        ]
+      },
+      "training": {
+        "role": "neutral",
+        "displayName": "Training",
+        "tonalRamp": [
+          "oklch(15% 0.0146 106.67)",
+          "oklch(26% 0.0146 106.67)",
+          "oklch(38% 0.0146 106.67)",
+          "oklch(49% 0.0146 106.67)",
+          "oklch(61% 0.0146 106.67)",
+          "oklch(72% 0.0146 106.67)",
+          "oklch(84% 0.0146 106.67)",
+          "oklch(95% 0.0146 106.67)"
+        ]
+      },
+      "country-paper": {
+        "role": "neutral",
+        "displayName": "Country Paper",
+        "tonalRamp": [
+          "oklch(15% 0.0139 88.68)",
+          "oklch(26% 0.0139 88.68)",
+          "oklch(38% 0.0139 88.68)",
+          "oklch(49% 0.0139 88.68)",
+          "oklch(61% 0.0139 88.68)",
+          "oklch(72% 0.0139 88.68)",
+          "oklch(84% 0.0139 88.68)",
+          "oklch(95% 0.0139 88.68)"
+        ]
+      },
+      "country-ink": {
+        "role": "primary",
+        "displayName": "Country Ink",
+        "tonalRamp": [
+          "oklch(15% 0.0178 67.15)",
+          "oklch(26% 0.0178 67.15)",
+          "oklch(38% 0.0178 67.15)",
+          "oklch(49% 0.0178 67.15)",
+          "oklch(61% 0.0178 67.15)",
+          "oklch(72% 0.0178 67.15)",
+          "oklch(84% 0.0178 67.15)",
+          "oklch(95% 0.0178 67.15)"
+        ]
+      },
+      "country-muted": {
+        "role": "neutral",
+        "displayName": "Country Muted",
+        "tonalRamp": [
+          "oklch(15% 0.0231 77.13)",
+          "oklch(26% 0.0231 77.13)",
+          "oklch(38% 0.0231 77.13)",
+          "oklch(49% 0.0231 77.13)",
+          "oklch(61% 0.0231 77.13)",
+          "oklch(72% 0.0231 77.13)",
+          "oklch(84% 0.0231 77.13)",
+          "oklch(95% 0.0231 77.13)"
+        ]
+      },
+      "country-accent": {
+        "role": "primary",
+        "displayName": "Country Accent",
+        "tonalRamp": [
+          "oklch(15% 0.0942 53.61)",
+          "oklch(26% 0.0942 53.61)",
+          "oklch(38% 0.0942 53.61)",
+          "oklch(49% 0.0942 53.61)",
+          "oklch(61% 0.0942 53.61)",
+          "oklch(72% 0.0942 53.61)",
+          "oklch(84% 0.0942 53.61)",
+          "oklch(95% 0.0942 53.61)"
+        ]
+      },
+      "country-soft": {
+        "role": "neutral",
+        "displayName": "Country Soft",
+        "tonalRamp": [
+          "oklch(15% 0.0198 87.52)",
+          "oklch(26% 0.0198 87.52)",
+          "oklch(38% 0.0198 87.52)",
+          "oklch(49% 0.0198 87.52)",
+          "oklch(61% 0.0198 87.52)",
+          "oklch(72% 0.0198 87.52)",
+          "oklch(84% 0.0198 87.52)",
+          "oklch(95% 0.0198 87.52)"
+        ]
+      },
+      "country-line": {
+        "role": "neutral",
+        "displayName": "Country Line",
+        "tonalRamp": [
+          "oklch(15% 0.0251 83.41)",
+          "oklch(26% 0.0251 83.41)",
+          "oklch(38% 0.0251 83.41)",
+          "oklch(49% 0.0251 83.41)",
+          "oklch(61% 0.0251 83.41)",
+          "oklch(72% 0.0251 83.41)",
+          "oklch(84% 0.0251 83.41)",
+          "oklch(95% 0.0251 83.41)"
+        ]
+      },
+      "country-connect": {
+        "role": "secondary",
+        "displayName": "Country Connect",
+        "tonalRamp": [
+          "oklch(15% 0.0449 116.16)",
+          "oklch(26% 0.0449 116.16)",
+          "oklch(38% 0.0449 116.16)",
+          "oklch(49% 0.0449 116.16)",
+          "oklch(61% 0.0449 116.16)",
+          "oklch(72% 0.0449 116.16)",
+          "oklch(84% 0.0449 116.16)",
+          "oklch(95% 0.0449 116.16)"
+        ]
+      },
+      "public-paper": {
+        "role": "neutral",
+        "displayName": "Public Paper",
+        "tonalRamp": [
+          "oklch(15% 0.0000 89.88)",
+          "oklch(26% 0.0000 89.88)",
+          "oklch(38% 0.0000 89.88)",
+          "oklch(49% 0.0000 89.88)",
+          "oklch(61% 0.0000 89.88)",
+          "oklch(72% 0.0000 89.88)",
+          "oklch(84% 0.0000 89.88)",
+          "oklch(95% 0.0000 89.88)"
+        ]
+      },
+      "public-ink": {
+        "role": "primary",
+        "displayName": "Public Ink",
+        "tonalRamp": [
+          "oklch(15% 0.0711 259.76)",
+          "oklch(26% 0.0711 259.76)",
+          "oklch(38% 0.0711 259.76)",
+          "oklch(49% 0.0711 259.76)",
+          "oklch(61% 0.0711 259.76)",
+          "oklch(72% 0.0711 259.76)",
+          "oklch(84% 0.0711 259.76)",
+          "oklch(95% 0.0711 259.76)"
+        ]
+      },
+      "public-muted": {
+        "role": "neutral",
+        "displayName": "Public Muted",
+        "tonalRamp": [
+          "oklch(15% 0.0425 261.13)",
+          "oklch(26% 0.0425 261.13)",
+          "oklch(38% 0.0425 261.13)",
+          "oklch(49% 0.0425 261.13)",
+          "oklch(61% 0.0425 261.13)",
+          "oklch(72% 0.0425 261.13)",
+          "oklch(84% 0.0425 261.13)",
+          "oklch(95% 0.0425 261.13)"
+        ]
+      },
+      "public-accent": {
+        "role": "primary",
+        "displayName": "Public Accent",
+        "tonalRamp": [
+          "oklch(15% 0.1549 255.02)",
+          "oklch(26% 0.1549 255.02)",
+          "oklch(38% 0.1549 255.02)",
+          "oklch(49% 0.1549 255.02)",
+          "oklch(61% 0.1549 255.02)",
+          "oklch(72% 0.1549 255.02)",
+          "oklch(84% 0.1549 255.02)",
+          "oklch(95% 0.1549 255.02)"
+        ]
+      },
+      "public-soft": {
+        "role": "neutral",
+        "displayName": "Public Soft",
+        "tonalRamp": [
+          "oklch(15% 0.0103 247.93)",
+          "oklch(26% 0.0103 247.93)",
+          "oklch(38% 0.0103 247.93)",
+          "oklch(49% 0.0103 247.93)",
+          "oklch(61% 0.0103 247.93)",
+          "oklch(72% 0.0103 247.93)",
+          "oklch(84% 0.0103 247.93)",
+          "oklch(95% 0.0103 247.93)"
+        ]
+      },
+      "public-line": {
+        "role": "neutral",
+        "displayName": "Public Line",
+        "tonalRamp": [
+          "oklch(15% 0.0203 250.40)",
+          "oklch(26% 0.0203 250.40)",
+          "oklch(38% 0.0203 250.40)",
+          "oklch(49% 0.0203 250.40)",
+          "oklch(61% 0.0203 250.40)",
+          "oklch(72% 0.0203 250.40)",
+          "oklch(84% 0.0203 250.40)",
+          "oklch(95% 0.0203 250.40)"
+        ]
+      },
+      "public-action": {
+        "role": "primary",
+        "displayName": "Public Action",
+        "tonalRamp": [
+          "oklch(15% 0.1492 256.48)",
+          "oklch(26% 0.1492 256.48)",
+          "oklch(38% 0.1492 256.48)",
+          "oklch(49% 0.1492 256.48)",
+          "oklch(61% 0.1492 256.48)",
+          "oklch(72% 0.1492 256.48)",
+          "oklch(84% 0.1492 256.48)",
+          "oklch(95% 0.1492 256.48)"
+        ]
+      },
+      "public-action-hover": {
+        "role": "primary",
+        "displayName": "Public Action Hover",
+        "tonalRamp": [
+          "oklch(15% 0.1259 256.35)",
+          "oklch(26% 0.1259 256.35)",
+          "oklch(38% 0.1259 256.35)",
+          "oklch(49% 0.1259 256.35)",
+          "oklch(61% 0.1259 256.35)",
+          "oklch(72% 0.1259 256.35)",
+          "oklch(84% 0.1259 256.35)",
+          "oklch(95% 0.1259 256.35)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Institute display",
+        "purpose": "Default desktop hero; final direction selection remains open."
+      },
+      "country-display": {
+        "displayName": "Country display",
+        "purpose": "Landscape-led alternative hero."
+      },
+      "public-display": {
+        "displayName": "Public display",
+        "purpose": "Public-health alternative hero."
+      }
+    },
+    "shadows": [
+      {
+        "name": "preview-only",
+        "value": "0 8px 32px #12231e26",
+        "purpose": "Floating direction review control only; content surfaces remain flat."
+      }
+    ],
+    "motion": [
+      {
+        "name": "state",
+        "value": "0.2s ease",
+        "purpose": "Color, arrow and disclosure state transitions."
+      },
+      {
+        "name": "image",
+        "value": "0.6s ease",
+        "purpose": "Featured project image scale."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "none",
+        "purpose": "Remove animation and transitions and disable smooth scrolling when requested."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "compact-desktop",
+        "value": "1200px"
+      },
+      {
+        "name": "tablet",
+        "value": "980px"
+      },
+      {
+        "name": "mobile",
+        "value": "700px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary action",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Default research or enquiry action.",
+      "html": "<a href=\"#research\" class=\"ds-button\">Explore our research <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></a>",
+      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:space-between;gap:28px;padding:17px 22px;border:0;border-radius:var(--radius,4px);font:600 14px/1.5 Manrope,sans-serif;text-decoration:none;transition:background .2s,color .2s}.ds-button svg{transition:transform .2s}.ds-button:hover svg{transform:translate(2px,-2px)}.ds-button:focus-visible{outline:3px solid var(--accent,#b44b26);outline-offset:5px}@media(prefers-reduced-motion:reduce){.ds-button,.ds-button svg{transition:none}}.ds-button{background:var(--ink,#172b2a);color:#fff}.ds-button:hover{background:var(--accent,#b44b26)}"
+    },
+    {
+      "name": "Light action",
+      "kind": "button",
+      "refersTo": "button-light",
+      "description": "Conversation-band action in the institute direction.",
+      "html": "<a href=\"#connect\" class=\"ds-button\">Let’s connect <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></a>",
+      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:space-between;gap:28px;padding:17px 22px;border:0;border-radius:var(--radius,4px);font:600 14px/1.5 Manrope,sans-serif;text-decoration:none;transition:background .2s,color .2s}.ds-button svg{transition:transform .2s}.ds-button:hover svg{transform:translate(2px,-2px)}.ds-button:focus-visible{outline:3px solid var(--accent,#b44b26);outline-offset:5px}@media(prefers-reduced-motion:reduce){.ds-button,.ds-button svg{transition:none}}.ds-button{background:#e9eddf;color:#233c31;min-width:185px}.ds-button:hover{background:white}"
+    },
+    {
+      "name": "Text link",
+      "kind": "button",
+      "description": "Underlined route to supporting detail.",
+      "html": "<a class=\"ds-link\" href=\"#research\">Explore all research <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></a>",
+      "css": ".ds-link{display:inline-flex;align-items:center;gap:19px;padding:5px 0;color:var(--ink,#172b2a);font:600 14px Manrope,sans-serif;text-decoration:underline;text-underline-offset:6px;text-decoration-color:#a8b6aa}.ds-link:hover{color:var(--accent,#b44b26);text-decoration-color:var(--accent,#b44b26)}.ds-link:focus-visible{outline:3px solid var(--accent,#b44b26);outline-offset:5px}"
+    },
+    {
+      "name": "Navigation",
+      "kind": "nav",
+      "description": "Desktop navigation links; the site supplies the mobile disclosure.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Main\"><a href=\"#about\">Our collaborative</a><a href=\"#research\">Research & impact</a><a href=\"#training\">Training</a></nav>",
+      "css": ".ds-nav{display:flex;align-items:center;flex-wrap:wrap;gap:29px}.ds-nav a{color:var(--ink,#172b2a);font:600 14px Manrope,sans-serif;text-decoration:none;transition:color .2s}.ds-nav a:hover{color:var(--accent,#b44b26)}.ds-nav a:focus-visible{outline:3px solid var(--accent,#b44b26);outline-offset:5px}@media(max-width:1200px){.ds-nav a{font-size:12px}}"
+    },
+    {
+      "name": "Project topic",
+      "kind": "chip",
+      "refersTo": "topic",
+      "description": "Noninteractive project category label.",
+      "html": "<span class=\"ds-topic\">Access to care</span>",
+      "css": ".ds-topic{display:inline-block;background:var(--paper,#fafbf8);color:var(--ink,#172b2a);padding:7px 11px;border-radius:2px;font:600 12px Manrope,sans-serif}"
+    },
+    {
+      "name": "Research card copy",
+      "kind": "card",
+      "refersTo": "research-card",
+      "description": "Text portion of the featured research card; photography remains in the page.",
+      "html": "<article class=\"ds-card\"><h3>Bringing recovery<br>closer to home.</h3><p class=\"ds-meta\">Research project · Funded 2025</p><p>Exploring a hybrid prehabilitation program to help rural patients prepare for knee replacement surgery—with less travel and more support.</p></article>",
+      "css": ".ds-card{background:var(--soft,#e9eee6);color:var(--ink,#172b2a);border-radius:var(--radius,4px);padding:28px;max-width:330px}.ds-meta{font:600 12px/1.6 Manrope,sans-serif;letter-spacing:.075em;color:var(--muted,#50625c)}.ds-card h3{font:500 27px/1.2 var(--display,Manrope,sans-serif);letter-spacing:-.04em;margin:19px 0 15px}.ds-card p{font:400 15px/1.85 Manrope,sans-serif;color:var(--muted,#50625c);margin:0}.ds-card .ds-meta{font:600 12px/1.6 Manrope,sans-serif;letter-spacing:.075em;margin-top:-5px;margin-bottom:15px}"
+    },
+    {
+      "name": "Public service action",
+      "kind": "button",
+      "refersTo": "public-service",
+      "description": "One of the three public-direction task links.",
+      "html": "<a class=\"ds-service\" href=\"#training\">Find training <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></a>",
+      "css": ".ds-service{display:flex;justify-content:space-between;align-items:center;gap:20px;background:#185cb0;color:white;padding:24px 25px;font:600 14px Manrope,sans-serif;text-decoration:none}.ds-service:hover{background:#134a8e}.ds-service:focus-visible{outline:3px solid var(--accent,#b44b26);outline-offset:5px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Regional knowledge, shared possibility",
+    "overview": "This is a descriptive record of the first implementation, not a final brand selection. The three preview alternatives remain equal candidates: Research institute (`institute`, the initial default), Connected to country (`country`), and Health in common (`public`). The shared visual purpose is to make verified regional research approachable and easy to explore. The north-star phrase summarizes the existing direction contract; it is not an additional approved brand commitment.\n\nResearch institute pairs restrained Manrope with a Literata phrase, eucalyptus tones, pale stone surfaces, and an asymmetrical photograph. Connected to country uses warmer paper and olive-brown tones, Literata headings and an expansive landscape opening. Health in common uses stronger Manrope, navy and blue, square surfaces, and a direct three-task index. Preserve QRHIRC's existing logo, name, and Acknowledgement of Country in every direction.",
+    "keyCharacteristics": [
+      "Regional landscape photography with attribution.",
+      "Clear research, training, and collaboration routes.",
+      "Spacious editorial sections and mostly flat surfaces.",
+      "Three complete preview alternatives with final selection open."
+    ],
+    "rules": [
+      {
+        "name": "The Direction Integrity Rule",
+        "body": "Apply a direction as a whole; do not mix its palette and typography with another preview alternative without a deliberate redesign.",
+        "section": "colors"
+      }
+    ],
+    "dos": [
+      "Do preserve all three preview alternatives until the user selects one.",
+      "Do use locally loaded Manrope and Literata in their observed roles.",
+      "Do retain visible keyboard focus and reduced-motion behavior.",
+      "Do preserve the logo, Acknowledgement of Country, and photography attribution."
+    ],
+    "donts": [
+      "Don't treat the initial institute default as final approval.",
+      "Don't spread the preview control's shadow and rounded style to content cards.",
+      "Don't mix direction-specific palettes and heading treatments accidentally.",
+      "Don't invent research outcomes, people, events, or proof statistics to fill a layout."
+    ]
+  }
+}
