@@ -48,6 +48,7 @@
   --display: Manrope, sans-serif;
   --body: Manrope, sans-serif;
   --radius: 4px;
+  --site-header-height: 116px;
   /* Event categories. Ink + a wash so rows, badges and tabs share one hue. */
   --cat-training: #b44b26;
   --cat-workshop: #2e6a4a;
@@ -62,7 +63,7 @@
 }
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 32px;
+  scroll-padding-top: 132px;
 }
 body {
   margin: 0;
@@ -70,6 +71,7 @@ body {
   background: var(--paper);
   color: var(--ink);
   -webkit-font-smoothing: antialiased;
+  overflow-x: clip;
 }
 button,
 a {
@@ -132,7 +134,6 @@ p {
   /* Re-resolved here so each direction's --body override actually applies. */
   font-family: var(--body);
   background: var(--paper);
-  overflow: clip;
 }
 .section-wrap {
   max-width: 1320px;
@@ -162,8 +163,10 @@ p {
 }
 .header {
   background: var(--paper);
-  position: relative;
-  z-index: 20;
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  box-shadow: 0 1px 0 var(--line);
 }
 .header-inner {
   max-width: 1440px;
@@ -916,10 +919,15 @@ a.partner-slide:hover {
 }
 .direction-country .hero {
   max-width: none;
-  margin: 0 24px;
-  padding: 0;
-  display: block;
-  min-height: 630px;
+  width: 100%;
+  margin: calc(-1 * var(--site-header-height)) 0 0;
+  padding: var(--site-header-height) 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  min-height: calc(var(--site-header-height) + 560px);
+  overflow: hidden;
 }
 .direction-country .hero-image {
   position: absolute;
@@ -932,9 +940,10 @@ a.partner-slide:hover {
   position: absolute;
   inset: 0;
   background: linear-gradient(
-    90deg,
-    rgba(26, 33, 24, 0.85),
-    rgba(26, 33, 24, 0.25) 75%
+    180deg,
+    rgba(26, 33, 24, 0.22) 0%,
+    rgba(26, 33, 24, 0.18) 42%,
+    rgba(26, 33, 24, 0.84) 100%
   );
 }
 .direction-country .hero-image img {
@@ -943,8 +952,11 @@ a.partner-slide:hover {
 .direction-country .hero-copy {
   position: relative;
   z-index: 2;
-  padding: 88px 70px 68px;
+  align-self: flex-start;
+  max-width: 640px;
+  padding: 40px 70px 56px;
   color: white;
+  text-align: left;
 }
 .direction-country .hero h1 {
   font-size: clamp(52px, 6vw, 88px);
@@ -1464,7 +1476,7 @@ a.partner-slide:hover {
 }
 @media (max-width: 700px) {
   html {
-    scroll-padding-top: 20px;
+    scroll-padding-top: 104px;
   }
   .section-wrap {
     padding-left: 24px;
@@ -1477,6 +1489,9 @@ a.partner-slide:hover {
   .header-inner {
     padding: 12px 23px;
     gap: 15px;
+  }
+  :root {
+    --site-header-height: 92px;
   }
   .brand img {
     width: 135px;
@@ -1740,11 +1755,13 @@ a.partner-slide:hover {
     margin-top: 10px;
   }
   .direction-country .hero {
-    margin: 0 12px;
-    min-height: 590px;
+    margin: calc(-1 * var(--site-header-height)) 0 0;
+    min-height: calc(var(--site-header-height) + 500px);
   }
   .direction-country .hero-copy {
-    padding: 50px 23px 40px;
+    align-self: stretch;
+    max-width: none;
+    padding: 24px 23px 32px;
   }
   .direction-country .hero h1 {
     font-size: 49px;
@@ -1758,7 +1775,7 @@ a.partner-slide:hover {
     width: auto;
   }
   .direction-country .hero-image:after {
-    background: linear-gradient(90deg, #1a2118e8, #1a211870);
+    background: linear-gradient(180deg, #1a21184d 0%, #1a2118d6 100%);
   }
   .direction-country .hero-location {
     margin-top: 36px;
@@ -1816,7 +1833,7 @@ a.partner-slide:hover {
     margin: 0;
     width: 100%;
   }
-  .hero-services {
+  .direction-public .hero-services {
     display: flex;
     flex-direction: column;
     width: calc(100% + 48px);
@@ -2017,7 +2034,7 @@ a.partner-slide:hover {
 .approach-head,
 .roster-head {
   position: sticky;
-  top: 40px;
+  top: 132px;
   align-self: start;
 }
 .approach-head h2,

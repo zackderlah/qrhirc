@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import { ArrowUpRight, ChevronDown, Menu, X } from 'lucide-react';
 import { Brand } from './brand';
 import { InstagramIcon, LinkedinIcon } from './social-icons';
-import { directions, type Direction } from '../lib/constants';
+import { defaultDirection, directions, type Direction } from '../lib/constants';
 import {
   persistPreviewState,
   readPreviewState,
@@ -21,7 +21,7 @@ export function SiteShell({
   children: React.ReactNode;
   activeNav?: NavKey;
 }) {
-  const [direction, setDirection] = useState<Direction>('institute');
+  const [direction, setDirection] = useState<Direction>(defaultDirection);
   const [menuOpen, setMenuOpen] = useState(false);
   const [preview, setPreview] = useState(false);
   const [previewOpen, setPreviewOpen] = useState(true);

@@ -24,6 +24,8 @@ export const directions = [
 
 export type Direction = (typeof directions)[number]['id'];
 
+export const defaultDirection: Direction = 'country';
+
 export const priorities = [
   {
     id: 'health-equity',

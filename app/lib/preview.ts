@@ -1,4 +1,4 @@
-import { directions, type Direction } from './constants';
+import { defaultDirection, directions, type Direction } from './constants';
 
 const PREVIEW_KEY = 'qrhirc-preview';
 const DIRECTION_KEY = 'qrhirc-direction';
@@ -16,17 +16,17 @@ export function readPreviewState(): { preview: boolean; direction: Direction } {
     sessionStorage.setItem(PREVIEW_KEY, '1');
   }
 
-  let direction: Direction = 'institute';
+  const preview =
+    urlPreview || sessionStorage.getItem(PREVIEW_KEY) === '1';
+
+  let direction: Direction = defaultDirection;
   if (isDirection(urlDirection)) {
     direction = urlDirection;
     sessionStorage.setItem(DIRECTION_KEY, direction);
-  } else {
+  } else if (preview) {
     const stored = sessionStorage.getItem(DIRECTION_KEY);
     if (isDirection(stored)) direction = stored;
   }
-
-  const preview =
-    urlPreview || sessionStorage.getItem(PREVIEW_KEY) === '1';
 
   return { preview, direction };
 }
